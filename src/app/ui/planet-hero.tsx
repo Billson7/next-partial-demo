@@ -1,3 +1,5 @@
+"use cache";
+
 import React, { type FC } from 'react'
 
 export const PlanetHero: FC = async () => {
