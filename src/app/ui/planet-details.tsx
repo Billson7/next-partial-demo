@@ -5,22 +5,33 @@ import { Card, CardBody, Divider, Spacer } from "@nextui-org/react";
 type Planets = {
   name: string;
   population: string;
+  terrain: string;
 };
 
 export const PlanetDetails: FC = async () => {
   const data = await getPlanetDetails();
 
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        flexWrap: "wrap",
+        justifyContent: "center",
+        alignItems: "start",
+        gap: "1rem",
+      }}
+    >
       {data.results.map((planet: Planets) => (
         <div key={planet.name}>
-          <Card>
-            <CardBody>
-              <h2>{planet.name}</h2>
-              <h2>Population: {planet.population}</h2>
+          <Card className="h-[150px] w-[250px]">
+            <CardBody className="text-center">
+              <h2 className="text-2xl">{planet.name}</h2>
+              <Divider className="mx-auto mb-4 w-9/12" />
+              <p className="truncate">Population: {planet.population}</p>
+              <p className="">Terrain: {planet.terrain}</p>
             </CardBody>
           </Card>
-          <Divider className="my-4" />
           <Spacer x={4} />
         </div>
       ))}
