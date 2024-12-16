@@ -11,9 +11,9 @@
   "dependencies": {
     "@nextui-org/react": "^2.4.8",
     "framer-motion": "^11.11.10",
-    "next": "15.0.2-canary.10",
-    "react": "19.0.0-rc-69d4b800-20241021",
-    "react-dom": "19.0.0-rc-69d4b800-20241021"
+    "next": "^15.1.1-canary.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
