@@ -22,7 +22,7 @@ export const PlanetDetails: FC = async () => {
         gap: "1rem",
       }}
     >
-      {data.results.map((planet: Planets) => (
+      {data?.results?.map((planet: Planets) => (
         <div key={planet.name}>
           <Card className="h-[150px] w-[250px]">
             <CardBody className="text-center">
