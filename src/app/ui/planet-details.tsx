@@ -1,6 +1,6 @@
+import { Card, CardBody, Divider, Spacer } from "@nextui-org/react";
 import React, { type FC } from "react";
 import { getPlanetDetails } from "../utils/get-planet-details";
-import { Card, CardBody, Divider, Spacer } from "@nextui-org/react";
 
 type Planets = {
   name: string;

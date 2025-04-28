@@ -1,7 +1,7 @@
+import { NextUIProvider } from "@nextui-org/react";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import styles from "../page.module.css";
-import { NextUIProvider } from "@nextui-org/react";
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
