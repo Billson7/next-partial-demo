@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:biome": "biome lint --write ./src",
+    "format:biome": "biome format --write ./src",
+    "check:biome": "biome check --write ./src"
   },
   "dependencies": {
     "@nextui-org/react": "^2.4.8",
