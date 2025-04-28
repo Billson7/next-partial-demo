@@ -1,15 +1,15 @@
-import { Card, Skeleton } from "@nextui-org/react";
+import { Card, Skeleton } from '@nextui-org/react';
 
 export default function LoadingSkeleton() {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "row",
-        flexWrap: "wrap",
-        justifyContent: "center",
-        alignItems: "start",
-        gap: "1rem",
+        display: 'flex',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        alignItems: 'start',
+        gap: '1rem',
       }}
     >
       <Card className="h-[150px] w-[250px] space-y-2 p-4" radius="lg">

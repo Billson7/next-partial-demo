@@ -17,6 +17,12 @@
   "organizeImports": {
     "enabled": true
   },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "jsxQuoteStyle": "double"
+    }
+  },
   "linter": {
     "enabled": true,
     "rules": {

@@ -1,6 +1,6 @@
-import { Card, CardBody, Divider, Spacer } from "@nextui-org/react";
-import React, { type FC } from "react";
-import { getPlanetDetails } from "../utils/get-planet-details";
+import { Card, CardBody, Divider, Spacer } from '@nextui-org/react';
+import React, { type FC } from 'react';
+import { getPlanetDetails } from '../utils/get-planet-details';
 
 type Planets = {
   name: string;
@@ -14,12 +14,12 @@ export const PlanetDetails: FC = async () => {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "row",
-        flexWrap: "wrap",
-        justifyContent: "center",
-        alignItems: "start",
-        gap: "1rem",
+        display: 'flex',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        alignItems: 'start',
+        gap: '1rem',
       }}
     >
       {data?.results?.map((planet: Planets) => (

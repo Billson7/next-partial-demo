@@ -1,6 +1,6 @@
-"use cache";
+'use cache';
 
-import React, { type FC } from "react";
+import React, { type FC } from 'react';
 
 export const PlanetHero: FC = async () => (
   <div>
