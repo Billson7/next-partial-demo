@@ -20,12 +20,20 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
-    }
-  },
-  "javascript": {
-    "formatter": {
-      "quoteStyle": "double"
+      "recommended": true,
+      "correctness": {
+        "noUnusedImports": {
+          "level": "warn",
+          "fix": "none"
+        },
+        "noUnusedVariables": "warn"
+      },
+      "suspicious": {
+        "noConsole": "warn"
+      },
+      "complexity": {
+        "noForEach": "warn"
+      }
     }
   }
 }
