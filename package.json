@@ -6,12 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome lint ./src",
-    "lint:fix": "biome lint --write ./src",
-    "format": "biome format ./src",
-    "format:fix": "biome format --write ./src",
-    "check": "biome check ./src",
-    "check:fix": "biome check --write ./src"
+    "lint": "biome lint",
+    "lint:fix": "biome lint --write",
+    "format": "biome format",
+    "format:fix": "biome format --write",
+    "check": "biome check",
+    "check:fix": "biome check --write"
   },
   "dependencies": {
     "@nextui-org/react": "^2.6.11",
