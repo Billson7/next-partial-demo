@@ -1,5 +1,5 @@
 import { Card, CardBody, Divider, Spacer } from '@nextui-org/react';
-import React, { type FC } from 'react';
+import type { FC } from 'react';
 import { getPlanetDetails } from '../utils/get-planet-details';
 
 type Planets = {
