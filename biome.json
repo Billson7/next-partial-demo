@@ -43,13 +43,14 @@
           "level": "warn",
           "fix": "none"
         },
-        "noUnusedVariables": "warn"
+        "noUnusedVariables": "error"
       },
       "suspicious": {
         "noConsole": "warn"
       },
       "complexity": {
-        "noForEach": "warn"
+        "noForEach": "warn",
+        "useSimplifiedLogicExpression": "error"
       }
     }
   }
